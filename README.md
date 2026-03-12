@@ -38,6 +38,47 @@ I build **end-to-end AI systems** — from training custom vision models to depl
 
 ## 🚀 Featured Projects
 
+<!-- ⭐ MAJOR PROJECT HIGHLIGHT -->
+<div align="center">
+
+### 🏆 Final Year Major Project — VTU, SMVITM
+
+</div>
+
+<table>
+<tr>
+<td colspan="2" valign="top">
+
+### 🏠🤖 AI-Powered Smart Home Security System
+> *Context-aware surveillance that thinks like a human security guard — VTU Major Project 2025*
+
+A **5-person team project** built from the ground up — a full multi-camera AI security system that runs **4 AI models simultaneously in real-time** on consumer hardware (GTX 1650). It doesn't just detect motion; it *understands* who's there, what they're doing, and whether it's a threat — all locally, with zero cloud dependency.
+
+**My Role:** Pose Estimation & Behavior Analysis module — MediaPipe 33-keypoint skeleton extraction, loitering/pacing/aggression detection, and multi-signal threat fusion scoring.
+
+**What makes it special:**
+- 🎯 **76% reduction in false alarms** via session-based tracking (one alert per person per visit)
+- 👤 InsightFace recognition at **88% accuracy even at 70° camera angles**
+- 🧠 Weighted threat fusion: Pose (30%) + Movement (30%) + Temporal (20%) + Weapon (20%)
+- 🔗 Cross-camera identity linking — tracks a person from gate → door seamlessly
+- ⚡ 15–18 FPS running YOLOv8n + InsightFace + MediaPipe + ByteTrack simultaneously
+- 🔒 100% local processing — no cloud, no subscriptions, runs on ~₹70,000 hardware
+
+**Stack:** `Python` `PyTorch` `YOLOv8` `InsightFace` `MediaPipe` `ByteTrack` `OpenCV` `CUDA`
+
+**Team:** Abhishek M · Adithya B Hanglur · **Puneeth** · Sarvan D Suvarna · Shamith Vakwady
+**Guide:** Mr. Balachandra R Jogi, Dept. of AI & DS, SMVITM
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/puneeth-hegde/ai-home-security)
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🛠️ Other Projects
+
 <table>
 <tr>
 <td width="50%" valign="top">
