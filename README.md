@@ -1,253 +1,122 @@
-<div align="center">
+# Hi, I'm Puneeth Hegde 👋
 
-<!-- Dynamic Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Puneeth%20Hegde&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20Problem%20Solver&descAlignY=58&descColor=a78bfa&animation=fadeIn" width="100%" />
-
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+AI+that+serves+real+people+%F0%9F%8C%B1;From+farmlands+to+fintech+%F0%9F%8C%8D;Offline+AI+%7C+Computer+Vision+%7C+Full-Stack;Turning+ideas+into+impact+%F0%9F%9A%80" alt="Typing SVG" /></a>
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/puneeth-hegde)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/puneeth-hegde)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
-
-</div>
+I'm an AI Engineer and Full-Stack Developer passionate about building intelligent systems that solve real-world problems. My work spans computer vision, LLM-powered applications, offline AI, and full-stack development.
 
 ---
 
-## 🧠 About Me
+## 🚀 Projects
 
-```python
-class PuneethHegde:
-    def __init__(self):
-        self.name        = "Puneeth Hegde"
-        self.role        = "AI Engineer & Full-Stack Developer"
-        self.passion     = "Building AI that solves real-world problems"
-        self.focus       = ["LLMs & RAG", "Computer Vision", "Full-Stack Apps"]
-        self.languages   = ["Python", "TypeScript", "Dart", "SQL"]
-        self.currently   = "Open to roles in AI/ML & Full-Stack Development"
+### 🏠 AI-Powered Smart Home Security System &nbsp;`Final Year Major Project — VTU 2025`
+> A context-aware, multi-camera home security system that runs 4 AI models simultaneously on consumer hardware with zero cloud dependency.
 
-    def philosophy(self):
-        return "Technology should empower the underserved, not just the privileged."
-```
+- **76% reduction in false alarms** through session-based tracking (one alert per person per visit)
+- Dual-camera pipeline: YOLOv8n + ByteTrack for detection, InsightFace for face recognition (88% accuracy at 70° angles)
+- Behavioral threat analysis using MediaPipe (33 skeletal keypoints) — loitering, pacing, aggressive stances
+- Multi-signal threat fusion: Pose (30%) + Movement (30%) + Temporal (20%) + Weapon detection (20%)
+- Cross-camera identity linking: tracks a person from gate to door seamlessly
+- 15–18 FPS running all models simultaneously on GTX 1650, fully local
+- **My role:** Pose Estimation & Behavior Analysis module
+- **Team:** Abhishek M, Adithya B Hanglur, Puneeth, Sarvan D Suvarna, Shamith Vakwady
 
-I build **end-to-end AI systems** — from training custom vision models to deploying intelligent full-stack apps. My projects span **agriculture AI**, **fintech inclusion**, **offline rural assistants**, **security systems**, and **satellite image analysis**. I care deeply about building tech with purpose.
+`Python` `PyTorch` `YOLOv8` `InsightFace` `MediaPipe` `ByteTrack` `OpenCV` `CUDA`
 
 ---
-
-## 🚀 Featured Projects
-
-<!-- ⭐ MAJOR PROJECT HIGHLIGHT -->
-<div align="center">
-
-### 🏆 Final Year Major Project — VTU, SMVITM
-
-</div>
-
-<table>
-<tr>
-<td colspan="2" valign="top">
-
-### 🏠🤖 AI-Powered Smart Home Security System
-> *Context-aware surveillance that thinks like a human security guard — VTU Major Project 2025*
-
-A **5-person team project** built from the ground up — a full multi-camera AI security system that runs **4 AI models simultaneously in real-time** on consumer hardware (GTX 1650). It doesn't just detect motion; it *understands* who's there, what they're doing, and whether it's a threat — all locally, with zero cloud dependency.
-
-**My Role:** Pose Estimation & Behavior Analysis module — MediaPipe 33-keypoint skeleton extraction, loitering/pacing/aggression detection, and multi-signal threat fusion scoring.
-
-**What makes it special:**
-- 🎯 **76% reduction in false alarms** via session-based tracking (one alert per person per visit)
-- 👤 InsightFace recognition at **88% accuracy even at 70° camera angles**
-- 🧠 Weighted threat fusion: Pose (30%) + Movement (30%) + Temporal (20%) + Weapon (20%)
-- 🔗 Cross-camera identity linking — tracks a person from gate → door seamlessly
-- ⚡ 15–18 FPS running YOLOv8n + InsightFace + MediaPipe + ByteTrack simultaneously
-- 🔒 100% local processing — no cloud, no subscriptions, runs on ~₹70,000 hardware
-
-**Stack:** `Python` `PyTorch` `YOLOv8` `InsightFace` `MediaPipe` `ByteTrack` `OpenCV` `CUDA`
-
-**Team:** Abhishek M · Adithya B Hanglur · **Puneeth** · Sarvan D Suvarna · Shamith Vakwady
-**Guide:** Mr. Balachandra R Jogi, Dept. of AI & DS, SMVITM
-
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/puneeth-hegde/ai-home-security)
-
-</td>
-</tr>
-</table>
-
----
-
-### 🛠️ Other Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
 
 ### 🌱 Digital Krishi Officer
-> *AI-powered agricultural advisor for Indian farmers*
+> An AI-powered agricultural advisory system for Indian farmers with multilingual support, plant disease diagnosis, and real-time data tools.
 
-An intelligent full-stack advisory system that combines **custom computer vision** (MobileNetV2 on PlantVillage), **RAG with ChromaDB**, and **live API tools** into a single multilingual farmer assistant.
+- Custom-trained **MobileNetV2** on the PlantVillage dataset — identifies **38 disease classes** across 14 crop species
+- RAG pipeline using **ChromaDB** + Sentence Transformers for local agricultural knowledge retrieval
+- Live tools for real-time weather and AGMARKNET mandi (wholesale market) prices
+- Strictly multilingual responses in English, Kannada, and Malayalam
+- **Llama 3.1 via Groq** as the central orchestrating agent
+- Deployed on Hugging Face Spaces (backend) + Vercel (frontend)
 
-**Highlights:**
-- 🗣️ Strict multilingual responses: English, Kannada, Malayalam
-- 📸 Diagnoses **38 plant disease classes** across 14 species
-- 🌦️ Real-time weather + AGMARKNET mandi price tools
-- 🧠 Llama 3.1 via Groq as the central orchestrator
-- 🐳 Deployed on Hugging Face Spaces + Vercel
+`Python` `FastAPI` `PyTorch` `ChromaDB` `Next.js` `Groq API`
 
-**Stack:** `Python` `FastAPI` `PyTorch` `ChromaDB` `Next.js` `Groq`
-
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/puneeth-hegde/digital-krishi-officer)
-
-</td>
-<td width="50%" valign="top">
+---
 
 ### 💸 FinVerse
-> *AI-powered financial inclusion platform*
+> A full-stack AI-driven financial inclusion platform prototype for the unbanked, with credit scoring, P2P lending, and a financial literacy hub.
 
-A production-grade fintech prototype that empowers the **unbanked** with AI credit scoring (alternative data), a Llama 3 financial advisor, P2P lending, micro-savings goals, and 3D portfolio dashboards.
+- Proprietary **AI credit scoring** (300–850) using alternative data: rent, utility payments, mobile usage
+- Real-time financial advisor chat powered by **Groq's Llama 3**
+- P2P lending marketplace with risk-level classification and full Supabase RLS
+- Interactive savings goal tracker and financial literacy quiz module
+- **React Three Fiber** 3D portfolio dashboard visualizations
+- Live demo deployed on Netlify
 
-**Highlights:**
-- 🤖 Proprietary credit scoring (300–850) using rent, utility & mobile data
-- 💬 Real-time Groq-powered financial advisor chat
-- 🪩 React Three Fiber 3D dashboard visualizations
-- 🔐 Full Supabase auth + RLS + real-time DB
-- 🌐 Live on Netlify
+`Next.js 14` `TypeScript` `Supabase` `Groq` `React Three Fiber` `Tailwind CSS`
 
-**Stack:** `Next.js 14` `TypeScript` `Supabase` `Groq` `React Three Fiber` `Tailwind`
+🔗 [Live Demo](https://finverse-prototype.netlify.app/)
 
-[![Demo](https://img.shields.io/badge/Live_Demo-00C7B7?style=flat-square&logo=netlify)](https://finverse-prototype.netlify.app/)
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/puneeth-hegde/finverse)
+---
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+### 🗣️ Sakhi Sahayak — Offline AI Village Assistant
+> A fully offline, privacy-first Flutter app for rural India where the entire AI pipeline runs on-device — no internet, no cloud, no data leakage.
 
-### 🗣️ Sakhi Sahayak
-> *Offline AI village assistant — zero internet required*
+- On-device **Whisper Tiny Q8** for speech-to-text via native Android JNI (PCM16 → Float32)
+- **LLaMA 1B Q4** (quantized) converts complex queries into 3–4 simple actionable steps
+- Pictogram-based visual guidance designed for low-literacy users
+- Intent detection distinguishes Assist queries from incident Reports
+- Offline TTS for voice output — zero external API calls
+- Built with Flutter + Kotlin, JNI bindings for all ML models
 
-A **fully offline, privacy-first Flutter app** built for rural India. The entire AI pipeline (STT → Intent → LLM → TTS) runs on-device using Whisper Tiny Q8, LLaMA 1B Q4, and native Android JNI — no cloud, no data leakage.
+`Flutter` `Kotlin` `Whisper` `LLaMA` `JNI` `Android`
 
-**Highlights:**
-- 🎙️ On-device Whisper STT via JNI (PCM16 → Float32)
-- 🧠 Quantized LLaMA 1B simplifies tasks into 3–4 clear steps
-- 🖼️ Pictogram-based visual guidance for low-literacy users
-- 🔒 Zero external API calls — 100% private
-- 📱 Works on any Android device (4GB RAM+)
-
-**Stack:** `Flutter` `Kotlin` `Whisper` `LLaMA` `JNI` `Android`
-
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/puneeth-hegde/sakhi-sahayak)
-
-</td>
-<td width="50%" valign="top">
+---
 
 ### 🛡️ SENTINEL v5.0
-> *Dual-camera AI security system*
+> A dual-camera AI security system with face recognition, body language analysis, weapon detection, and cross-camera tracking.
 
-A real-time security system with **face recognition**, **body language analysis**, **weapon detection**, and **cross-camera tracking** — all running on a GTX 1650 at 12–15 FPS.
+- **InsightFace** face recognition with voting mechanism to prevent misclassifications (<3 sec)
+- **YOLOv8 + ByteTrack** for multi-person detection and persistent ID tracking
+- **MediaPipe** body language analysis with loitering and face-hidden detection
+- Weapon detection via YOLO, real-time audio TTS alerts
+- Threat scoring, snapshot management, and live enrollment (press 'E')
+- Runs at 12–15 FPS on GTX 1650
 
-**Highlights:**
-- 👤 InsightFace recognition in under 3 seconds
-- 🏃 YOLOv8 + ByteTrack for person tracking
-- 🤸 MediaPipe body language & threat scoring
-- 🔫 Weapon detection via YOLO
-- 🔔 Real-time audio alerts with loitering detection
+`Python` `PyTorch` `YOLOv8` `InsightFace` `MediaPipe` `CUDA`
 
-**Stack:** `Python` `PyTorch` `YOLOv8` `InsightFace` `MediaPipe` `CUDA`
+---
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/puneeth-hegde/sentinel)
+### 🛰️ Land Use & Land Cover Change Detection (LULC) &nbsp;`Team Project`
+> A deep learning semantic segmentation system for analyzing satellite imagery and detecting temporal land-use changes.
 
-</td>
-</tr>
-<tr>
-<td width="50%" colspan="2" valign="top">
+- **U-Net** (TensorFlow/Keras) for pixel-wise multi-class segmentation — vegetation, water, urban, barren
+- Cross-year change detection with class-wise area delta analysis
+- Interactive **Plotly Dash** dashboard for exploring regional trends
+- Trained with Dice/IoU metrics and configurable augmentation
+- **My role:** Data preprocessing, U-Net training pipeline, model integration, and visualizations
+- **Team:** Puneeth Hegde, Sarvan D Suvarna, Shamith Vakwadey, Abhishek M
 
-### 🛰️ Land Use & Land Cover Change Detection (LULC)
-> *Deep learning satellite image segmentation — Team Project*
-
-A U-Net semantic segmentation pipeline built in **TensorFlow/Keras** that classifies satellite imagery into LULC classes (vegetation, water, urban, barren) and tracks **temporal land-use changes** through an interactive Dash dashboard.
-
-**My Role:** Data preprocessing, U-Net training pipeline, model integration, and visualizations
-
-**Highlights:**
-- 🗺️ Pixel-wise multi-class segmentation from satellite rasters
-- 📉 Cross-year change detection with area delta analysis
-- 📊 Interactive Dash dashboard for exploring regional trends
-- 🧪 Dice/IoU metrics, augmentation, configurable architecture
-
-**Stack:** `TensorFlow` `Keras` `U-Net` `NumPy` `OpenCV` `Plotly Dash` `Rasterio`
-
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github)](https://github.com/puneeth-hegde/land-use-land-cover)
-
-</td>
-</tr>
-</table>
+`TensorFlow` `Keras` `U-Net` `NumPy` `OpenCV` `Plotly Dash` `Rasterio`
 
 ---
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+**Languages:** Python · TypeScript · Dart · SQL
 
-**Languages**
+**AI / ML:** PyTorch · TensorFlow · OpenCV · YOLOv8 · InsightFace · MediaPipe · Whisper · LLaMA · ChromaDB · Sentence Transformers
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+**Full-Stack:** Next.js · FastAPI · Flutter · Supabase · React Three Fiber · Tailwind CSS
 
-**AI / ML**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-
-**Full-Stack**
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
-**Infra & Tools**
-
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</div>
+**Tools & Infra:** Git · Docker · Vercel · Hugging Face Spaces · CUDA · Linux
 
 ---
 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=puneeth-hegde&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=puneeth-hegde&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=puneeth-hegde&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=puneeth-hegde&show_icons=true&theme=default&hide_border=true&count_private=true" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=puneeth-hegde&layout=compact&theme=default&hide_border=true&langs_count=8" height="160"/>
 </div>
 
 ---
 
-## 🌟 What Drives Me
+## 📫 Connect
 
-> *"The best AI isn't the most powerful — it's the one that reaches those who need it most."*
-
-From building an app that helps a farmer in Karnataka identify crop disease without internet access, to creating a platform that gives unbanked individuals a financial identity — every project I build is rooted in **real-world impact**. I'm constantly exploring the intersection of **AI, accessibility, and inclusion**.
-
----
-
-<div align="center">
-
-**Thanks for stopping by! If my work resonates with you, let's connect. 🤝**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" width="100%"/>
-
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/puneeth-hegde)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:your@email.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/puneeth-hegde)
