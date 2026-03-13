@@ -7,24 +7,24 @@
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/puneeth-hegde)
-&nbsp;
+ 
 [![GitHub](https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/puneeth-hegde)
-&nbsp;
+ 
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:your@email.com)
 
 </div>
 
----
+-----
 
 I build **end-to-end AI systems** — from fine-tuning computer vision models and designing RAG pipelines to shipping production full-stack applications. I focus on building systems that work in the real world, not just in notebooks.
 
----
+-----
 
 ## Projects
 
 <br/>
 
-**AI-Powered Smart Home Security System** &nbsp;&nbsp; `Final Year Major Project · VTU 2025`
+**AI-Powered Smart Home Security System**    `Final Year Major Project · VTU 2025`
 
 A context-aware, multi-camera surveillance system that runs four AI models simultaneously on consumer hardware with complete local processing and zero cloud dependency.
 
@@ -33,7 +33,7 @@ A context-aware, multi-camera surveillance system that runs four AI models simul
 - Achieved **76% reduction in false alarms** via session-based tracking — one alert per person per visit
 - Face recognition at **88% accuracy** even at challenging 70° top-down camera angles, with a voting mechanism to prevent misclassifications
 - Behavioral threat scoring with weighted multi-signal fusion: Pose (30%) + Movement (30%) + Temporal (20%) + Weapon (20%)
-- Cross-camera identity linking that tracks a person's journey from gate to door across separate feeds
+- Cross-camera identity linking that tracks a person’s journey from gate to door across separate feeds
 - Sustains **15–18 FPS** with all four models running in parallel on a GTX 1650
 - **My contribution:** Pose estimation & behavior analysis — MediaPipe 33-keypoint skeleton extraction, loitering/aggression detection, movement pattern analysis
 - **Team:** Abhishek M · Adithya B Hanglur · Puneeth · Sarvan D Suvarna · Shamith Vakwady
@@ -41,7 +41,7 @@ A context-aware, multi-camera surveillance system that runs four AI models simul
 
 `Python` `PyTorch` `YOLOv8` `InsightFace` `MediaPipe` `ByteTrack` `OpenCV` `CUDA 11.8`
 
----
+-----
 
 **Digital Krishi Officer**
 
@@ -57,7 +57,7 @@ A multilingual AI advisory platform for Indian farmers combining a custom-traine
 
 `Python` `FastAPI` `PyTorch` `ChromaDB` `Next.js` `Groq API` `Docker`
 
----
+-----
 
 **FinVerse**
 
@@ -66,7 +66,7 @@ A production-grade fintech platform prototype designed to provide financial acce
 > Next.js 14 · Supabase · Groq (Llama 3) · React Three Fiber · Framer Motion
 
 - Proprietary **alternative credit scoring** algorithm (300–850) using non-traditional signals: rent history, utility payments, mobile usage patterns
-- Real-time AI financial advisor powered by **Groq's Llama 3** with persistent chat history in Supabase
+- Real-time AI financial advisor powered by **Groq’s Llama 3** with persistent chat history in Supabase
 - Full P2P lending marketplace with risk classification, borrower/lender flows, and RLS-secured data
 - **React Three Fiber** 3D portfolio dashboard rendering live user financial data
 - Complete authentication flow: signup, login, password reset, email verification via Supabase Auth
@@ -74,7 +74,7 @@ A production-grade fintech platform prototype designed to provide financial acce
 
 `Next.js 14` `TypeScript` `Supabase` `Groq` `React Three Fiber` `Tailwind CSS` `Framer Motion` `Recharts`
 
----
+-----
 
 **Sakhi Sahayak — Offline AI Village Assistant**
 
@@ -91,25 +91,9 @@ A fully offline Flutter application for rural and low-connectivity regions in In
 
 `Flutter` `Kotlin` `Whisper` `LLaMA` `JNI` `Android` `Provider`
 
----
+-----
 
-**SENTINEL v5.0**
-
-A dual-camera AI security system featuring real-time face recognition, behavioral analysis, weapon detection, and cross-camera person tracking — built for single-machine deployment.
-
-> YOLOv8 · InsightFace · MediaPipe · ByteTrack
-
-- **InsightFace** 512-dimensional face embeddings with cosine distance matching and voting for stability
-- **YOLOv8 + ByteTrack** multi-object detection with Kalman filter-based tracking and persistent IDs
-- MediaPipe body language analysis: loitering detection, pacing patterns, face-hidden alerts
-- Configurable threat scoring, real-time TTS audio alerts, and in-session face enrollment (press E)
-- Runs at **12–15 FPS** on GTX 1650 with CUDA 11.8
-
-`Python` `PyTorch` `YOLOv8` `InsightFace` `MediaPipe` `ByteTrack` `CUDA`
-
----
-
-**Land Use & Land Cover Change Detection (LULC)** &nbsp;&nbsp; `Team Project`
+**Land Use & Land Cover Change Detection (LULC)**    `Team Project`
 
 A deep learning pipeline for semantic segmentation of satellite imagery and multi-year land-use change analysis, visualized through an interactive dashboard.
 
@@ -124,18 +108,18 @@ A deep learning pipeline for semantic segmentation of satellite imagery and mult
 
 `TensorFlow` `Keras` `NumPy` `OpenCV` `Plotly Dash` `Rasterio` `scikit-image`
 
----
+-----
 
 ## Tech Stack
 
-| Domain | Technologies |
-|---|---|
-| Languages | Python · TypeScript · Dart · SQL |
-| AI / ML | PyTorch · TensorFlow · YOLOv8 · InsightFace · MediaPipe · Whisper · LLaMA · ChromaDB · Sentence Transformers |
-| Full-Stack | Next.js · FastAPI · Flutter · Supabase · React Three Fiber · Tailwind CSS |
-| Tools & Infra | Git · Docker · CUDA · Vercel · Hugging Face Spaces · Linux |
+|Domain       |Technologies                                                                                                |
+|-------------|------------------------------------------------------------------------------------------------------------|
+|Languages    |Python · TypeScript · Dart · SQL                                                                            |
+|AI / ML      |PyTorch · TensorFlow · YOLOv8 · InsightFace · MediaPipe · Whisper · LLaMA · ChromaDB · Sentence Transformers|
+|Full-Stack   |Next.js · FastAPI · Flutter · Supabase · React Three Fiber · Tailwind CSS                                   |
+|Tools & Infra|Git · Docker · CUDA · Vercel · Hugging Face Spaces · Linux                                                  |
 
----
+-----
 
 ## GitHub Stats
 
@@ -153,7 +137,7 @@ A deep learning pipeline for semantic segmentation of satellite imagery and mult
 
 </div>
 
----
+-----
 
 <div align="center">
 
