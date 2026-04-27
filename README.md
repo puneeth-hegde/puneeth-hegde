@@ -22,7 +22,7 @@ I build **end-to-end AI systems** — from fine-tuning computer vision models an
 
 ## Projects
 
-**GNSS Weather Prediction API**  `final year internship project 2026`
+**GNSS Weather Prediction API**   `final year internship project 2026`
 
 An end-to-end rainfall forecasting system using GNSS-derived atmospheric signals fused with NASA meteorological data to predict precipitation 6 hours ahead. Deployed as a live REST API on **HuggingFace Spaces**.
 
