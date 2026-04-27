@@ -22,9 +22,25 @@ I build **end-to-end AI systems** — from fine-tuning computer vision models an
 
 ## Projects
 
+**GNSS Weather Prediction API**  `final year internship project 2026`
+
+An end-to-end rainfall forecasting pipeline that uses GNSS-derived atmospheric signals (Zenith Total Delay, Precipitable Water Vapor) fused with NASA meteorological data to predict precipitation 6 hours ahead, deployed as a live REST API on HuggingFace Spaces.
+
+> CNN-LSTM · Temporal Fusion Transformer · FastAPI · Docker · HuggingFace Spaces
+
+- Two-stage deep learning design: **Stage 1 binary classifier** (rain/no-rain) → **Stage 2 regressor** (mm/hr amount), handling severe class imbalance without inflating false alarms
+- Custom TFT built from scratch with `GatedResidualNetwork`, `VariableSelectionNetwork`, and `TransformerBlock` layers; TFT gets **90% ensemble weight** in final prediction
+- Solved a chain of real deployment problems: Keras 3.x quantization field crash, Python version mismatch, silent internal weight-path rename in Keras, and a CudnnRNNV3 GPU-only kernel baked into SavedModels
+- Master dataset spanning **2010–2025**, 134,715 hourly rows, 13 features, 48-hour lookback window
+- Live endpoint: [`/predict/demo-storm`](https://puneeth2025-gnss-weather-api.hf.space/predict/demo-storm)
+
+`Python` `TensorFlow` `Keras` `FastAPI` `Docker` `NumPy` `HuggingFace Spaces`
+
+-----
+
 <br/>
 
-**AI-Powered Smart Home Security System**    `Final Year Major Project · VTU 2025`
+**AI-Powered Smart Home Security System**    `Final Year Major Project · VTU 2025-26`
 
 A context-aware, multi-camera surveillance system that runs four AI models simultaneously on consumer hardware with complete local processing and zero cloud dependency.
 
@@ -114,7 +130,7 @@ A deep learning pipeline for semantic segmentation of satellite imagery and mult
 
 |Domain       |Technologies                                                                                                |
 |-------------|------------------------------------------------------------------------------------------------------------|
-|Languages    |Python · TypeScript · Dart · SQL                                                                            |
+|Languages    |Python · TypeScript · javascript · SQL                                                                            |
 |AI / ML      |PyTorch · TensorFlow · YOLOv8 · InsightFace · MediaPipe · Whisper · LLaMA · ChromaDB · Sentence Transformers|
 |Full-Stack   |Next.js · FastAPI · Flutter · Supabase · React Three Fiber · Tailwind CSS                                   |
 |Tools & Infra|Git · Docker · CUDA · Vercel · Hugging Face Spaces · Linux                                                  |
