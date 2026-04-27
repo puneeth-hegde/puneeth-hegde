@@ -37,10 +37,6 @@ An end-to-end rainfall forecasting system using GNSS-derived atmospheric signals
 
 -----
 
-`Python` `TensorFlow` `Keras` `FastAPI` `Docker` `NumPy` `HuggingFace Spaces`
-
------
-
 <br/>
 
 **AI-Powered Smart Home Security System**    `Final Year Major Project · VTU 2025-26`
