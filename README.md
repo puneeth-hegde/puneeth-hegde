@@ -24,15 +24,20 @@ I build **end-to-end AI systems** — from fine-tuning computer vision models an
 
 **GNSS Weather Prediction API**  `final year internship project 2026`
 
-An end-to-end rainfall forecasting pipeline that uses GNSS-derived atmospheric signals (Zenith Total Delay, Precipitable Water Vapor) fused with NASA meteorological data to predict precipitation 6 hours ahead, deployed as a live REST API on HuggingFace Spaces.
+**GNSS Weather Prediction API**
+
+An end-to-end rainfall forecasting system using GNSS-derived atmospheric signals fused with NASA meteorological data to predict precipitation 6 hours ahead. Deployed as a live REST API on **HuggingFace Spaces**.
 
 > CNN-LSTM · Temporal Fusion Transformer · FastAPI · Docker · HuggingFace Spaces
 
-- Two-stage deep learning design: **Stage 1 binary classifier** (rain/no-rain) → **Stage 2 regressor** (mm/hr amount), handling severe class imbalance without inflating false alarms
-- Custom TFT built from scratch with `GatedResidualNetwork`, `VariableSelectionNetwork`, and `TransformerBlock` layers; TFT gets **90% ensemble weight** in final prediction
-- Solved a chain of real deployment problems: Keras 3.x quantization field crash, Python version mismatch, silent internal weight-path rename in Keras, and a CudnnRNNV3 GPU-only kernel baked into SavedModels
-- Master dataset spanning **2010–2025**, 134,715 hourly rows, 13 features, 48-hour lookback window
+- Trained on **15 years of hourly data (2010–2025)** from the IISC GPS station (Zenith Total Delay, Precipitable Water Vapor) merged with NASA POWER variables — 134,715 rows, 13 features, 48-hour lookback window
+- **Two-stage architecture:** a CNN-LSTM classifier first decides if it will rain, then a separate CNN-LSTM regressor predicts the amount in mm/hr — handles severe class imbalance without inflating false alarms
+- Also trained a custom **Temporal Fusion Transformer** (GRN + Variable Selection + Multi-Head Attention) for Stage 1; final prediction blends CNN (10%) and TFT (90%) outputs
 - Live endpoint: [`/predict/demo-storm`](https://puneeth2025-gnss-weather-api.hf.space/predict/demo-storm)
+
+`Python` `TensorFlow` `Keras` `FastAPI` `Docker` `NumPy` `HuggingFace Spaces`
+
+-----
 
 `Python` `TensorFlow` `Keras` `FastAPI` `Docker` `NumPy` `HuggingFace Spaces`
 
