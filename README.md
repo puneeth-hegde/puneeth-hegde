@@ -10,7 +10,7 @@
  
 [![GitHub](https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=white)](https://github.com/puneeth-hegde)
  
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:your@email.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:puneethgshede@gmail.com)
 
 </div>
 
@@ -23,8 +23,6 @@ I build **end-to-end AI systems** — from fine-tuning computer vision models an
 ## Projects
 
 **GNSS Weather Prediction API**  `final year internship project 2026`
-
-**GNSS Weather Prediction API**
 
 An end-to-end rainfall forecasting system using GNSS-derived atmospheric signals fused with NASA meteorological data to predict precipitation 6 hours ahead. Deployed as a live REST API on **HuggingFace Spaces**.
 
